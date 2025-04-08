@@ -1,5 +1,12 @@
 //!  A module for generic representation of image.
 
+//! Changes made:
+//! // Before
+//! pub fn set_pixel(&mut self, x: i32, y: i32, color: &Color) -> RasterResult<()>
+//!
+//! // After
+//! pub fn set_pixel(&mut self, x: i32, y: i32, color: Color) -> RasterResult<()>
+
 // from rust
 use std::collections::HashMap;
 
